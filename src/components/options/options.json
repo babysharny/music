@@ -1,0 +1,45 @@
+{
+  "collectionName": "components_options_options",
+  "info": {
+    "displayName": "Options"
+  },
+  "options": {},
+  "attributes": {
+    "size": {
+      "type": "customField",
+      "default": "[]",
+      "options": [
+        "xs",
+        "s",
+        "m",
+        "l",
+        "xl",
+        "xxl"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "footSize": {
+      "type": "customField",
+      "default": "[]",
+      "options": [
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    },
+    "color": {
+      "type": "customField",
+      "default": "[]",
+      "options": [
+        "red",
+        "blue",
+        "green"
+      ],
+      "customField": "plugin::multi-select.multi-select"
+    }
+  }
+}
